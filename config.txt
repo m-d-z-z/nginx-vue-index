@@ -1,0 +1,15 @@
+location /download/ {
+	root /www/wwwroot/data/;
+}
+
+location ~ /$ {
+	autoindex on;
+    autoindex_format jsonp;
+    autoindex_localtime on;
+    if ($args = "path") {
+    	root /www/wwwroot/data/download/;
+    }
+    if ($args != "path") {
+    	rewrite / /index.html break;
+    }
+}

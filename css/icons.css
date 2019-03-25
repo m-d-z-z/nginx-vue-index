@@ -1,20 +1,20 @@
-@media screen and (min-width: 1025px) {
+
 
   /* I C O N S (only on 1024+ px resolutions)
   ~~~~~~~~~~~~*/
 
-  .col.name a[href*="."]:before, .col.name a[href*="/"]:before,
-  .col.name a[href~="INSTALL"]:before, .col.name a[href~="README"]:before,
-  .col.name a[href~="CHANGELOG"]:before, .col.name a[href~="COPYING"]:before {
+  .fileicon a[href*="."]:before, .fileicon a[href*="/"]:before,
+  .fileicon a[href~="INSTALL"]:before, .fileicon a[href~="README"]:before,
+  .fileicon a[href~="CHANGELOG"]:before, .fileicon a[href~="COPYING"]:before {
           background: url('../icons/file.png') left center no-repeat;
           content: ""; padding: 0 22px 0 0;
   }
 
-  .col.name a[href*="."]:after, .col.name a[href*="/"]:after {
+  .fileicon a[href*="."]:after, .fileicon a[href*="/"]:after {
           content: "";
   }
 
-  .col.name a[href$="/"]:before, .col.name a[href*="/?"]:before {
+  .fileicon a[href$="/"]:before, .fileicon a[href*="/?"]:before {
           background: url('../icons/folder_black.png') left center no-repeat;
   }
 
@@ -22,167 +22,167 @@
   /* A P P L I C A T I O N
   ~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-  .col.name a[href$=".doc"]:before {
+  .fileicon a[href$=".doc"]:before {
           background: url('../icons/doc.png') left center no-repeat;
   }
 
-  .col.name a[href$=".pdf"]:before {
+  .fileicon a[href$=".pdf"]:before {
           background: url('../icons/pdf.png') left center no-repeat;
   }
 
-  .col.name a[href$=".pgp"]:before {
+  .fileicon a[href$=".pgp"]:before {
           background: url('../icons/pgp.png') left center no-repeat;
   }
 
-  .col.name a[href$=".xml"]:before {
+  .fileicon a[href$=".xml"]:before {
           background: url('../icons/xml.png') left center no-repeat;
   }
 
-  .col.name a[href$=".xls"]:before {
+  .fileicon a[href$=".xls"]:before {
           background: url('../icons/xls.png') left center no-repeat;
   }
 
-  .col.name a[href$=".ppt"]:before {
+  .fileicon a[href$=".ppt"]:before {
           background: url('../icons/ppt.png') left center no-repeat;
   }
 
-  .col.name a[href$=".7z"]:before {
+  .fileicon a[href$=".7z"]:before {
           background: url('../icons/7z.png') left center no-repeat;
   }
 
-  .col.name a[href$=".torrent"]:before {
+  .fileicon a[href$=".torrent"]:before {
           background: url('../icons/file.png') left center no-repeat;
   }
 
-  .col.name a[href$=".iso"]:before {
+  .fileicon a[href$=".iso"]:before {
           background: url('../icons/iso.png') left center no-repeat;
   }
 
-  .col.name a[href$=".cue"]:before, .col.name a[href$=".bin"]:before {
+  .fileicon a[href$=".cue"]:before, .fileicon a[href$=".bin"]:before {
           background: url('../icons/bin.png') left center no-repeat;
   }
 
-  .col.name a[href$=".deb"]:before {
+  .fileicon a[href$=".deb"]:before {
           background: url('../icons/deb.png') left center no-repeat;
   }
 
-  .col.name a[href$=".exe"]:before {
+  .fileicon a[href$=".exe"]:before {
           background: url('../icons/file.png') left center no-repeat;
   }
 
-  .col.name a[href$=".swf"]:before {
+  .fileicon a[href$=".swf"]:before {
           background: url('../icons/swf.png') left center no-repeat;
   }
 
-  .col.name a[href$=".tgz"]:before, .col.name a[href$=".tar.gz"]:before,
-  .col.name a[href$=".tar.xz"]:before {
+  .fileicon a[href$=".tgz"]:before, .fileicon a[href$=".tar.gz"]:before,
+  .fileicon a[href$=".tar.xz"]:before {
     background: url('../icons/tgz.png') left center no-repeat;
   }
 
-  .col.name a[href$=".xpi"]:before {
+  .fileicon a[href$=".xpi"]:before {
     background: url('../icons/xpi.png') left center no-repeat;
   }
 
-  .col.name a[href$=".apk"]:before {
+  .fileicon a[href$=".apk"]:before {
     background: url('../icons/file.png') left center no-repeat;
   }
 
-  .col.name a[href$=".bat"]:before {
+  .fileicon a[href$=".bat"]:before {
           background: url('../icons/file.png') left center no-repeat;
   }
 
-  .col.name a[href$=".jar"]:before {
+  .fileicon a[href$=".jar"]:before {
           background: url('../icons/jar.png') left center no-repeat;
   }
 
-  .col.name a[href$=".pl"]:before {
+  .fileicon a[href$=".pl"]:before {
           background: url('../icons/pl.png') left center no-repeat;
   }
 
-  .col.name a[href$=".php"]:before {
+  .fileicon a[href$=".php"]:before {
           background: url('../icons/php.png') left center no-repeat;
   }
 
-  .col.name a[href$=".rar"]:before {
+  .fileicon a[href$=".rar"]:before {
           background: url('../icons/rar.png') left center no-repeat;
   }
 
-  .col.name a[href$=".rpm"]:before {
+  .fileicon a[href$=".rpm"]:before {
           background: url('../icons/rpm.png') left center no-repeat;
   }
 
-  .col.name a[href$=".rb"]:before {
+  .fileicon a[href$=".rb"]:before {
           background: url('../icons/rb.png') left center no-repeat;
   }
 
-  .col.name a[href$=".tar"]:before {
+  .fileicon a[href$=".tar"]:before {
           background: url('../icons/tar.png') left center no-repeat;
   }
 
-  .col.name a[href$=".zip"]:before {
+  .fileicon a[href$=".zip"]:before {
           background: url('../icons/zip.png') left center no-repeat;
   }
 
   /* A U D I O
   ~~~~~~~~~~~~*/
 
-  .col.name a[href$=".m3u"]:before {
+  .fileicon a[href$=".m3u"]:before {
           background: url('../icons/audio.png') left center no-repeat;
   }
 
-  .col.name a[href$=".mpeg"]:before {
+  .fileicon a[href$=".mpeg"]:before {
           background: url('../icons/mpg.png') left center no-repeat;
   }
 
-  .col.name a[href$=".wma"]:before {
+  .fileicon a[href$=".wma"]:before {
           background: url('../icons/audio.png') left center no-repeat;
   }
 
-  .col.name a[href$=".ogg"]:before {
+  .fileicon a[href$=".ogg"]:before {
           background: url('../icons/ogg.png') left center no-repeat;
   }
 
-  .col.name a[href$=".wav"]:before {
+  .fileicon a[href$=".wav"]:before {
           background: url('../icons/wav.png') left center no-repeat;
   }
 
 
-  .col.name a[href$=".flac"]:before {
+  .fileicon a[href$=".flac"]:before {
           background: url('../icons/audio.png') left center no-repeat;
   }
 
   /* I M A G E
   ~~~~~~~~~~~~*/
 
-  .col.name a[href$=".bmp"]:before, .col.name a[href$=".svg"]:before  {
+  .fileicon a[href$=".bmp"]:before, .fileicon a[href$=".svg"]:before  {
           background: url('../icons/image.png') left center no-repeat;
   }
 
-  .col.name a[href$=".gif"]:before {
+  .fileicon a[href$=".gif"]:before {
           background: url('../icons/gif.png') left center no-repeat;
   }
 
-  .col.name a[href$=".jpg"]:before, .col.name a[href$=".jpeg"]:before {
+  .fileicon a[href$=".jpg"]:before, .fileicon a[href$=".jpeg"]:before {
           background: url('../icons/jpeg.png') left center no-repeat;
   }
 
-  .col.name a[href$=".png"]:before {
+  .fileicon a[href$=".png"]:before {
           background: url('../icons/png.png') left center no-repeat;
   }
 
-  .col.name a[href$=".tiff"]:before {
+  .fileicon a[href$=".tiff"]:before {
           background: url('../icons/image.png') left center no-repeat;
   }
 
-  .col.name a[href$=".ico"]:before {
+  .fileicon a[href$=".ico"]:before {
           background: url('../icons/image.png') left center no-repeat;
   }
 
-  .col.name a[href$=".psd"]:before {
+  .fileicon a[href$=".psd"]:before {
           background: url('../icons/image.png') left center no-repeat;
   }
 
-  .col.name a[href$=".xcf"]:before {
+  .fileicon a[href$=".xcf"]:before {
           background: url('../icons/image.png') left center no-repeat;
   }
 
@@ -190,93 +190,92 @@
   /* T E X T
   ~~~~~~~~~~*/
 
-  .col.name a[href$=".css"]:before {
+  .fileicon a[href$=".css"]:before {
           background: url('../icons/css.png') left center no-repeat;
   }
 
-  .col.name a[href$=".htm"]:before, .col.name a[href$=".html"]:before,
-  .col.name a[href$=".md"]:before {
+  .fileicon a[href$=".htm"]:before, .fileicon a[href$=".html"]:before,
+  .fileicon a[href$=".md"]:before {
           background: url('../icons/html.png') left center no-repeat;
   }
 
-  .col.name a[href$=".txt"]:before, .col.name a[href$=".json"]:before {
+  .fileicon a[href$=".txt"]:before, .fileicon a[href$=".json"]:before {
           background: url('../icons/txt.png') left center no-repeat;
   }
 
-  .col.name a[href$=".csv"]:before {
+  .fileicon a[href$=".csv"]:before {
           background: url('../icons/csv.png') left center no-repeat;
   }
 
-  .col.name a[href$=".conf"]:before {
+  .fileicon a[href$=".conf"]:before {
           background: url('../icons/conf.png') left center no-repeat;
   }
 
-  .col.name a[href$=".rtf"]:before {
+  .fileicon a[href$=".rtf"]:before {
           background: url('../icons/rtf.png') left center no-repeat;
   }
 
-  .col.name a[href$=".bak"]:before {
+  .fileicon a[href$=".bak"]:before {
           background: url('../icons/file.png') left center no-repeat;
   }
 
-  .col.name a[href$=".c"]:before {
+  .fileicon a[href$=".c"]:before {
           background: url('../icons/c.png') left center no-repeat;
   }
 
-  .col.name a[href$=".cpp"]:before {
+  .fileicon a[href$=".cpp"]:before {
           background: url('../icons/cpp.png') left center no-repeat;
   }
 
-  .col.name a[href~="CHANGELOG"]:before {
+  .fileicon a[href~="CHANGELOG"]:before {
           background: url('../icons/txt.png') left center no-repeat;
   }
 
-  .col.name a[href~="COPYING"]:before {
+  .fileicon a[href~="COPYING"]:before {
           background: url('../icons/txt.png') left center no-repeat;
   }
 
-  .col.name a[href~="INSTALL"]:before {
+  .fileicon a[href~="INSTALL"]:before {
           background: url('../icons/txt.png') left center no-repeat;
   }
 
-  .col.name a[href$=".java"]:before {
+  .fileicon a[href$=".java"]:before {
           background: url('../icons/java.png') left center no-repeat;
   }
 
-  .col.name a[href$=".js"]:before {
+  .fileicon a[href$=".js"]:before {
           background: url('../icons/js.png') left center no-repeat;
   }
 
-  .col.name a[href$=".h"]:before {
+  .fileicon a[href$=".h"]:before {
           background: url('../icons/c.png') left center no-repeat;
   }
 
-  .col.name a[href$=".py"]:before {
+  .fileicon a[href$=".py"]:before {
           background: url('../icons/py.png') left center no-repeat;
   }
 
-  .col.name a[href~="README"]:before {
+  .fileicon a[href~="README"]:before {
           background: url('../icons/txt.png') left center no-repeat;
   }
 
-  .col.name a[href$=".sh"]:before {
+  .fileicon a[href$=".sh"]:before {
           background: url('../icons/file.png') left center no-repeat;
   }
 
-  .col.name a[href$=".sql"]:before {
+  .fileicon a[href$=".sql"]:before {
           background: url('../icons/sql.png') left center no-repeat;
   }
 
-  .col.name a[href$=".xml"]:before {
+  .fileicon a[href$=".xml"]:before {
           background: url('../icons/xml.png') left center no-repeat;
   }
 
   /* V I D E O
   ~~~~~~~~~~~~*/
 
-  .col.name a[href$=".avi"]:before, .col.name a[href$=".mp4"]:before,
-  .col.name a[href$=".mkv"]:before, .col.name a[href$=".divx"]:before,
-  .col.name a[href$=".wmv"]:before {
+  .fileicon a[href$=".avi"]:before, .fileicon a[href$=".mp4"]:before,
+  .fileicon a[href$=".mkv"]:before, .fileicon a[href$=".divx"]:before,
+  .fileicon a[href$=".wmv"]:before {
           background: url('../icons/video.png') left center no-repeat;
   }
-}
